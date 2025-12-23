@@ -4,7 +4,6 @@ if(process.env.NODE_ENV!="production")
     require('dotenv').config();
     
 }
-
 const express= require("express");
 const app= express();
 const mongoose= require("mongoose");
@@ -113,3 +112,6 @@ app.use((err,req,res,next)=>{
 app.listen(3000,()=>{
     console.log("port no 3000 is working");
 });
+
+
+// making a  new branch for pratice ok don't get me wrong!!! ok
